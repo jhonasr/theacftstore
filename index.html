@@ -1,0 +1,727 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!--Font Awesome-->
+    <link href="https://use.fontawesome.com/releases/v5.0.4/css/all.css" rel="stylesheet">
+    <!--Stylesheet -->
+    <link rel="stylesheet" type="text/css" href="../theacftstore/css/style.css">
+    <link rel="stylesheet" type="text/css" href="../theacftstore/css/normalize.css">
+
+    <title>The Aircraft Store</title>
+  </head>
+  <body>
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="">The Aircraft Store</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-1">
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fas fa-shopping-cart mr-1"></i>Canasta <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Salir</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    
+    <div class="jumbotron jumb1">
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="../theacftstore/images/banner.jpg" alt="First slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="../theacftstore/images/banner1.jpg" alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="../theacftstore/images/banner2.jpg" alt="Third slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="../theacftstore/images/banner3.jpg" alt="Third slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="../theacftstore/images/banner4.jpg" alt="Third slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="../theacftstore/images/banner5.jpg" alt="Third slide">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div><!--End of Jumb1-->
+
+    <div class="jumbotron jumb2">
+      <div class="row"><!--row-->
+        <div class="container col-lg-3">
+          <!--Buscar -->
+          <div class="input-group">
+            <input type="text" class="form-control" placeholder="Buscar" aria-label="Recipient's username" aria-describedby="basic-addon2">
+            <div class="input-group-append">
+              <button class="btn btn-outline-secondary" type="button"><i class="fas fa-search"></i></button>
+              </div>
+          </div>
+            <!--Categorias -->
+          <ul class="list-group d-none d-xl-block">
+            <li class="d-flex justify-content-between align-items-center pb-2 pt-4">
+              Categories
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              Airbus
+              <span class="badge badge-primary badge-pill">3</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              Boeing
+              <span class="badge badge-primary badge-pill">1</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              Bombardier
+              <span class="badge badge-primary badge-pill">0</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              Cessna
+              <span class="badge badge-primary badge-pill">4</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              Embraer
+              <span class="badge badge-primary badge-pill">0</span>
+            </li>
+          </ul>
+        </div>
+        <!-- cards container -->
+        <div class="container col-lg-9 col-md-9">
+          
+          <div class="row">
+            <div class="card m-auto mt-lg-0 mt-sm-2 ml-sm-auto mr-sm-auto" style="width: 15rem;" >
+              <img class="card-img-top" src="../theacftstore/images/AD1520_360s_2_darkshadow_new.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">SkyCourier</h5>
+                <p class="card-text">Reliably lifting off day after day with heavy payloads requires real performance and capability.</p>
+                <a href="#" class="btn btn-primary">$2M<i class="fas fa-shopping-cart mr-1"></i></a>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-btn-light" data-toggle="modal" data-target="#cessnaskycourriermodal">
+                  Detalles
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="cessnaskycourriermodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLongTitle">SkyCourier</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <div class="alert alert-primary" role="alert">
+                          <i class="fas fa-info-circle"></i>Este producto está agotado.
+                        </div>
+                        <div class="row">
+                          <img src="../theacftstore/images/cessnaskycourrier3mini.png" class="rounded float-left ml-3" alt="cessnaskycourrier">
+                          <div class="imageprice">
+                            <span>Precio: <span style="font-weight: bold"> $2M USD</span></span>
+                            <div class="rating">
+                              <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>:noicacifilaC
+                            </div>
+                            <div class="badge badge-warning text-white imagepriceitem">Flyer
+                            </div>
+                            <span class="badge badge-secondary">Light</span>
+                            <div>
+                              <span class="text-primary">Agregar a los deseos</span>
+                            </div>
+                          </div>
+                        </div>
+                        <nav>
+                          <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                            <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Descripción</a>
+                            <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Comentarios</a>
+                          </div>
+                        </nav>
+                        <div class="tab-content" id="nav-tabContent">
+                          <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                            <p>Reliably lifting off day after day with heavy payloads requires real performance and capability. 
+                               Cessna designed the all new Cessna SkyCourier™ turboprop for fully loaded high frequency operations and maximum efficiency. 
+                               Load, fly, unload and repeat, then watch your business grow.</p>
+                          </div>
+                          <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab"><!--Comentarios Container-->
+                            <div class="card mt-3">
+                              <div class="card-header">
+                                Jhon Alexander comento hace 2 días
+                              </div>
+                              <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Aterriza donde sea. Genial!</li>
+                              </ul>
+                            </div>
+                            <div class="form-group">
+                              <textarea class="form-control mt-3" id="exampleFormControlTextarea1" placeholder="Ingresa tu comentario" rows="3"></textarea>
+                            </div>  
+                          </div><!--End Comentarios Container-->
+                        </div>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-outline-dark" data-dismiss="modal">Cerrar</button>
+                        <button type="button" class="btn btn-primary">Comprar</button>
+                      </div>
+                    </div>
+                  </div>
+                </div><!-- End Modal -->
+              </div>
+            </div>
+            <div class="card m-auto mt-lg-0 mt-sm-2 ml-sm-auto mr-sm-auto" style="width: 15rem;">
+              <img class="card-img-top" src="../theacftstore/images/Caravan_208_34_dark.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Caravan 208</h5>
+                <p class="card-text">The Cessna® Caravan® is known for its rugged utility and flexibility.With its powerful turboprop engine.</p>
+                <a href="#" class="btn btn-primary">$3M<i class="fas fa-shopping-cart mr-1"></i></a>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-btn-light" data-toggle="modal" data-target="#cessnacaravanmodal">
+                  Detalles
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="cessnacaravanmodal" tabindex="-1" role="dialog" aria-labelledby="cessnacarabanCenterTitle" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="cessnacaravanLongTitle">Cessna Caravan</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <div class="alert alert-success" role="alert"><em class="fas fa-info-circle"></em> Producto disponible. </div>
+                        <div class="row">
+                          <img src="../theacftstore/images/Caravan_208_34_dark.png" class="rounded float-left ml-3" alt="cessnaskycourrier">
+                          <div class="imageprice">Precio: <strong> $3M USD</strong>
+                            <div class="rating">
+                              <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>:noicacifilaC
+                            </div>
+                            <div class="badge badge-warning text-white imagepriceitem">Flyer
+                            </div>
+                            <span class="badge badge-secondary">Light</span>
+                            <div>
+                              <span class="text-primary">Agregar a los deseos</span>
+                            </div>
+                          </div>
+                        </div>
+                        <nav>
+                          <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                            <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home1" role="tab" aria-controls="nav-home" aria-selected="true">Descripción</a>
+                            <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile1" role="tab" aria-controls="nav-profile" aria-selected="false">Comentarios</a>
+                          </div>
+                        </nav>
+                        <div class="tab-content" id="nav-tabContent">
+                          <div class="tab-pane fade show active" id="nav-home1" role="tabpanel" aria-labelledby="nav-home-tab">
+                            <p>The Cessna® Caravan® is known for its rugged utility and flexibility. With its powerful turboprop engine, the Caravan delivers the rare combination of high performance, low operating costs and ability to adapt to a wide variety of missions.</p>
+                          </div>
+                          <div class="tab-pane fade" id="nav-profile1" role="tabpanel" aria-labelledby="nav-profile-tab"><!--Comentarios Container-->
+                            <div class="card mt-3">
+                              <div class="card-header">
+                                Jhon Alexander comento hace 2 días
+                              </div>
+                              <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Avion monomotor turbohelice.</li>
+                              </ul>
+                            </div>
+                            <div class="form-group">
+                              <textarea class="form-control mt-3" id="exampleFormControlTextarea1" placeholder="Ingresa tu comentario" rows="3"></textarea>
+                            </div>  
+                          </div><!--End Comentarios Container-->
+                        </div>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-outline-dark" data-dismiss="modal">Cerrar</button>
+                        <button type="button" class="btn btn-primary">Comprar</button>
+                      </div>
+                    </div>
+                  </div>
+                </div><!-- End Modal -->
+              </div>
+            </div>
+            <div class="card m-auto mt-lg-0 mt-sm-2 ml-sm-auto mr-sm-auto" style="width: 15rem;">
+              <img class="card-img-top" src="../theacftstore/images/Grand_Caravan_EX_208B_34_dark.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Grand Caraban</h5>
+                <p class="card-text">The Cessna® Grand Caravan® EX is known for its dependable and efficient performance.</p>
+                <a href="#" class="btn btn-primary">$4M<i class="fas fa-shopping-cart mr-1"></i></a>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-btn-light" data-toggle="modal" data-target="#cessnagrandcaravanmodal">
+                  Detalles
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="cessnagrandcaravanmodal" tabindex="-1" role="dialog" aria-labelledby="cessnagrandcaravanCenterTitle" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="cessnagrandcaravanLongTitle">Grand Caravan</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <div class="alert alert-success" role="alert"><em class="fas fa-info-circle"></em> Producto disponible. </div>
+                        <div class="row">
+                          <img src="../theacftstore/images/Grand_Caravan_EX_208B_34_dark.png" class="rounded float-left ml-3" alt="cessnaskycourrier">
+                          <div class="imageprice">Precio: <strong> $4M USD</strong>
+                            <div class="rating">
+                              <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>:noicacifilaC
+                            </div>
+                            <div class="badge badge-warning text-white imagepriceitem">Flyer
+                            </div>
+                            <span class="badge badge-secondary">Light</span>
+                            <div>
+                              <span class="text-primary">Agregar a los deseos</span>
+                            </div>
+                          </div>
+                        </div>
+                        <nav>
+                          <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                            <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home2" role="tab" aria-controls="nav-home" aria-selected="true">Descripción</a>
+                            <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile2" role="tab" aria-controls="nav-profile" aria-selected="false">Comentarios</a>
+                          </div>
+                        </nav>
+                        <div class="tab-content" id="nav-tabContent">
+                          <div class="tab-pane fade show active" id="nav-home2" role="tabpanel" aria-labelledby="nav-home-tab">
+                            <p>The Cessna® Grand Caravan® EX is known for its dependable and efficient performance by regional airlines, charter operators and cargo carriers worldwide. The Grand Caravan EX was engineered for challenging missions, high payloads and short, rough runways while delivering single-engine economy and simplicity.</p>
+                          </div>
+                          <div class="tab-pane fade" id="nav-profile2" role="tabpanel" aria-labelledby="nav-profile-tab"><!--Comentarios Container-->
+                            <div class="card mt-3">
+                              <div class="card-header">
+                                Jhon Alexander comento hace 2 días
+                              </div>
+                              <ul class="list-group list-group-flush">
+                                <li class="list-group-item">La popular avioneta.</li>
+                              </ul>
+                            </div>
+                            <div class="form-group">
+                              <textarea class="form-control mt-3" id="exampleFormControlTextarea1" placeholder="Ingresa tu comentario" rows="3"></textarea>
+                            </div>  
+                          </div><!--End Comentarios Container-->
+                        </div>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-outline-dark" data-dismiss="modal">Cerrar</button>
+                        <button type="button" class="btn btn-primary">Comprar</button>
+                      </div>
+                    </div>
+                  </div>
+                </div><!-- End Modal -->
+              </div>
+            </div>
+            <div class="card m-auto mt-lg-0 mt-sm-2 ml-sm-auto mr-sm-auto" style="width: 15rem;">
+              <img class="card-img-top" src="../theacftstore/images/TTx_T240_34_dark.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Corvalis</h5>
+                <p class="card-text">With class-leading speed and so much more, substantially outperforms the competition</p>
+                <a href="#" class="btn btn-primary">$1M<i class="fas fa-shopping-cart mr-1"></i></a>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-btn-light" data-toggle="modal" data-target="#cessnacorvalismodal">
+                  Detalles
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="cessnacorvalismodal" tabindex="-1" role="dialog" aria-labelledby="cessnacorvalisCenterTitle" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="cessnacorvalisLongTitle">Cessna Corvalis</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <div class="alert alert-success" role="alert"><em class="fas fa-info-circle"></em> Producto disponible. </div>
+                        <div class="row">
+                          <img src="../theacftstore/images/TTx_T240_34_dark.png" class="rounded float-left ml-3" alt="cessnacorvalis">
+                          <div class="imageprice">Precio: <strong> $1M USD</strong>
+                            <div class="rating">
+                              <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>:noicacifilaC
+                            </div>
+                            <div class="badge badge-warning text-white imagepriceitem">Flyer
+                            </div>
+                            <span class="badge badge-secondary">Light</span>
+                            <div>
+                              <span class="text-primary">Agregar a los deseos</span>
+                            </div>
+                          </div>
+                        </div>
+                        <nav>
+                          <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                            <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home3" role="tab" aria-controls="nav-home" aria-selected="true">Descripción</a>
+                            <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile3" role="tab" aria-controls="nav-profile" aria-selected="false">Comentarios</a>
+                          </div>
+                        </nav>
+                        <div class="tab-content" id="nav-tabContent">
+                          <div class="tab-pane fade show active" id="nav-home3" role="tabpanel" aria-labelledby="nav-home-tab">
+                            <p>With class-leading speed and so much more, the Cessna TTx substantially outperforms the competition. Featuring advanced touch screen avionics, it is designed for the discerning pilot to deliver a superior flying experience through precision engineering.</p>
+                          </div>
+                          <div class="tab-pane fade" id="nav-profile3" role="tabpanel" aria-labelledby="nav-profile-tab"><!--Comentarios Container-->
+                            <div class="card mt-3">
+                              <div class="card-header">
+                                Jhon Alexander comento hace 2 días
+                              </div>
+                              <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Apenas para aprender a volar.</li>
+                              </ul>
+                            </div>
+                            <div class="form-group">
+                              <textarea class="form-control mt-3" id="exampleFormControlTextarea1" placeholder="Ingresa tu comentario" rows="3"></textarea>
+                            </div>  
+                          </div><!--End Comentarios Container-->
+                        </div>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-outline-dark" data-dismiss="modal">Cerrar</button>
+                        <button type="button" class="btn btn-primary">Comprar</button>
+                      </div>
+                    </div>
+                  </div>
+                </div><!-- End Modal -->
+              </div>
+            </div>
+            <div class="card m-auto mt-lg-2 mt-sm-2 ml-sm-auto mr-sm-auto" style="width: 15rem;">
+              <img class="card-img-top" src="../theacftstore/images/A350-900 mini.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Airbus A350-900</h5>
+                <p class="card-text">That’s why Airbus looks to learn from the natural world when designing and improving upon its aircraft.</p>
+                <a href="#" class="btn btn-primary">$500M<em class="fas fa-shopping-cart mr-1"></em></a><!-- Button trigger modal -->
+                <button type="button" class="btn btn-btn-light" data-toggle="modal" data-target="#airbusa350modal">
+                  Detalles
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="airbusa350modal" tabindex="-1" role="dialog" aria-labelledby="airbusa350CenterTitle" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="airbusa350LongTitle">Airbus A350-900</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <div class="alert alert-success" role="alert"><em class="fas fa-info-circle"></em> Producto disponible. </div>
+                        <div class="row">
+                          <img src="../theacftstore/images/A350-900 mini.png" class="rounded float-left ml-3" alt="airbusa350">
+                          <div class="imageprice">Precio: <strong> $500M USD</strong>
+                            <div class="rating">
+                              <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>:noicacifilaC
+                            </div>
+                            <div class="badge badge-warning text-white imagepriceitem">Flyer
+                            </div>
+                            <span class="badge badge-secondary">Light</span>
+                            <div>
+                              <span class="text-primary">Agregar a los deseos</span>
+                            </div>
+                          </div>
+                        </div>
+                        <nav>
+                          <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                            <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home4" role="tab" aria-controls="nav-home" aria-selected="true">Descripción</a>
+                            <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile4" role="tab" aria-controls="nav-profile" aria-selected="false">Comentarios</a>
+                          </div>
+                        </nav>
+                        <div class="tab-content" id="nav-tabContent">
+                          <div class="tab-pane fade show active" id="nav-home4" role="tabpanel" aria-labelledby="nav-home-tab">
+                            <p> As the newest member of the company’s widebody family, the A350 XWB is an example of how this inspirational blend of science and nature represents another significant evolution in the ongoing mission to conceive and manufacture the perfect aircraft.</p>
+                          </div>
+                          <div class="tab-pane fade" id="nav-profile4" role="tabpanel" aria-labelledby="nav-profile-tab"><!--Comentarios Container-->
+                            <div class="card mt-3">
+                              <div class="card-header">
+                                Jhon Alexander comento hace 2 días
+                              </div>
+                              <ul class="list-group list-group-flush">
+                                <li class="list-group-item">El metro volador</li>
+                              </ul>
+                            </div>
+                            <div class="form-group">
+                              <textarea class="form-control mt-3" id="exampleFormControlTextarea1" placeholder="Ingresa tu comentario" rows="3"></textarea>
+                            </div>  
+                          </div><!--End Comentarios Container-->
+                        </div>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-outline-dark" data-dismiss="modal">Cerrar</button>
+                        <button type="button" class="btn btn-primary">Comprar</button>
+                      </div>
+                    </div>
+                  </div>
+                </div><!-- End Modal -->
+              </div>
+            </div>
+            <div class="card m-auto mt-lg-2 mt-sm-2 ml-sm-auto mr-sm-auto" style="width: 15rem;">
+              <img class="card-img-top" src="../theacftstore/images/A400M mini.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Airbus A400</h5>
+                <p class="card-text">Is the most advanced, proven and certified airlifter available to fulfill the Armed Forces’ needs.</p>
+                <a href="#" class="btn btn-primary">$300M<i class="fas fa-shopping-cart mr-1"></i></a>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-btn-light" data-toggle="modal" data-target="#airbusa400modal">
+                  Detalles
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="airbusa400modal" tabindex="-1" role="dialog" aria-labelledby="airbusa400CenterTitle" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="airbusa400LongTitle">Airbus A400</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <div class="alert alert-primary" role="alert">
+                          <i class="fas fa-info-circle"></i>Este producto está agotado.
+                        </div>
+                        <div class="row">
+                          <img src="../theacftstore/images/A400M mini.png" class="rounded float-left ml-3" alt="airbusa400">
+                          <div class="imageprice">Precio: <strong> $300M USD</strong>
+                            <div class="rating">
+                              <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>:noicacifilaC
+                            </div>
+                            <div class="badge badge-warning text-white imagepriceitem">Flyer
+                            </div>
+                            <span class="badge badge-secondary">Light</span>
+                            <div>
+                              <span class="text-primary">Agregar a los deseos</span>
+                            </div>
+                          </div>
+                        </div>
+                        <nav>
+                          <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                            <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home5" role="tab" aria-controls="nav-home" aria-selected="true">Descripción</a>
+                            <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile5" role="tab" aria-controls="nav-profile" aria-selected="false">Comentarios</a>
+                          </div>
+                        </nav>
+                        <div class="tab-content" id="nav-tabContent">
+                          <div class="tab-pane fade show active" id="nav-home5" role="tabpanel" aria-labelledby="nav-home-tab">
+                            <p>The A400M is the most advanced, proven and certified airlifter available, combining 21st century state-of-the-art technologies to fulfill the current and upcoming Armed Forces’ needs. The A400M combines the capability to carry strategic loads with the ability to deliver even into tactical locations with small and unprepared airstrips. And in addition it acts as a frontline-tanker for other aircraft. One aircraft, which can do the work of three – The A400M.</p>
+                          </div>
+                          <div class="tab-pane fade" id="nav-profile5" role="tabpanel" aria-labelledby="nav-profile-tab"><!--Comentarios Container-->
+                            <div class="card mt-3">
+                              <div class="card-header">
+                                Jhon Alexander comento hace 2 días
+                              </div>
+                              <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Avion multiproposito. Genial!</li>
+                              </ul>
+                            </div>
+                            <div class="form-group">
+                              <textarea class="form-control mt-3" id="exampleFormControlTextarea1" placeholder="Ingresa tu comentario" rows="3"></textarea>
+                            </div>  
+                          </div><!--End Comentarios Container-->
+                        </div>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-outline-dark" data-dismiss="modal">Cerrar</button>
+                        <button type="button" class="btn btn-primary">Comprar</button>
+                      </div>
+                    </div>
+                  </div>
+                </div><!-- End Modal -->
+              </div>
+            </div>
+            <div class="card m-auto mt-lg-2 mt-sm-2 ml-sm-auto mr-sm-auto" style="width: 15rem;">
+              <img class="card-img-top" src="../theacftstore/images/Airbus Helicopter mini.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Airbus H160</h5>
+                <p class="card-text">This innovative medium helicopter becomes the first member of the H generation. </p>
+                <a href="#" class="btn btn-primary">$4M<em class="fas fa-shopping-cart mr-1"></em></a><!-- Button trigger modal -->
+                <button type="button" class="btn btn-btn-light" data-toggle="modal" data-target="#airbushmodal">
+                  Detalles
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="airbushmodal" tabindex="-1" role="dialog" aria-labelledby="airbushCenterTitle" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="airbushLongTitle">Airbus H160</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <div class="alert alert-success" role="alert"><em class="fas fa-info-circle"></em> Producto disponible. </div>
+                        <div class="row">
+                          <img src="../theacftstore/images/Airbus Helicopter mini.png" class="rounded float-left ml-3" alt="airbush">
+                          <div class="imageprice">Precio: <strong> $4M USD</strong>
+                            <div class="rating">
+                              <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>:noicacifilaC
+                            </div>
+                            <div class="badge badge-warning text-white imagepriceitem">Flyer
+                            </div>
+                            <span class="badge badge-secondary">Light</span>
+                            <div>
+                              <span class="text-primary">Agregar a los deseos</span>
+                            </div>
+                          </div>
+                        </div>
+                        <nav>
+                          <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                            <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home6" role="tab" aria-controls="nav-home" aria-selected="true">Descripción</a>
+                            <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile6" role="tab" aria-controls="nav-profile" aria-selected="false">Comentarios</a>
+                          </div>
+                        </nav>
+                        <div class="tab-content" id="nav-tabContent">
+                          <div class="tab-pane fade show active" id="nav-home6" role="tabpanel" aria-labelledby="nav-home-tab">
+                            <p>The H160 opens a new chapter in the history of Airbus. Joining the helicopter product range between the H145 and the H175, this innovative medium helicopter becomes the first member of the H generation. The entire design was based on one overriding goal: to create added value for customers in terms of performance, economic competitiveness, safety and comfort. Both cleaner and quieter, the H160 takes a step forward in respect for the environment.  The H160 was unveiled at the Heli-Expo trade show in March 2015.</p>
+                          </div>
+                          <div class="tab-pane fade" id="nav-profile6" role="tabpanel" aria-labelledby="nav-profile-tab"><!--Comentarios Container-->
+                            <div class="card mt-3">
+                              <div class="card-header">
+                                Jhon Alexander comento hace 2 días
+                              </div>
+                              <ul class="list-group list-group-flush">
+                                <li class="list-group-item">El super helicoptero</li>
+                              </ul>
+                            </div>
+                            <div class="form-group">
+                              <textarea class="form-control mt-3" id="exampleFormControlTextarea1" placeholder="Ingresa tu comentario" rows="3"></textarea>
+                            </div>  
+                          </div><!--End Comentarios Container-->
+                        </div>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-outline-dark" data-dismiss="modal">Cerrar</button>
+                        <button type="button" class="btn btn-primary">Comprar</button>
+                      </div>
+                    </div>
+                  </div>
+                </div><!-- End Modal -->
+              </div>
+            </div>
+            <div class="card m-auto mt-lg-2 mt-sm-2 ml-sm-auto mr-sm-auto" style="width: 15rem;">
+              <img class="card-img-top" src="../theacftstore/images/737_MAX_mini.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Boeing 737 Max</h5>
+                <p class="card-text">El 737 MAX ofrece calidad promoviendo así su éxito comercial y la satisfacción de sus pasajeros.</p>
+                <a href="#" class="btn btn-primary">$350M<em class="fas fa-shopping-cart mr-1"></em></a><!-- Button trigger modal -->
+                <button type="button" class="btn btn-btn-light" data-toggle="modal" data-target="#boeing737modal">
+                  Detalles
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="boeing737modal" tabindex="-1" role="dialog" aria-labelledby="boeing737CenterTitle" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="boeing737LongTitle">Boeing 737 Max</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <div class="alert alert-success" role="alert"><em class="fas fa-info-circle"></em> Producto disponible. </div>
+                        <div class="row">
+                          <img src="../theacftstore/images/737_MAX_mini.png" class="rounded float-left ml-3" alt="boeing737">
+                          <div class="imageprice">Precio: <strong> $350M USD</strong>
+                            <div class="rating">
+                              <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>:noicacifilaC
+                            </div>
+                            <div class="badge badge-warning text-white imagepriceitem">Flyer
+                            </div>
+                            <span class="badge badge-secondary">Light</span>
+                            <div>
+                              <span class="text-primary">Agregar a los deseos</span>
+                            </div>
+                          </div>
+                        </div>
+                        <nav>
+                          <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                            <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home7" role="tab" aria-controls="nav-home" aria-selected="true">Descripción</a>
+                            <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile7" role="tab" aria-controls="nav-profile" aria-selected="false">Comentarios</a>
+                          </div>
+                        </nav>
+                        <div class="tab-content" id="nav-tabContent">
+                          <div class="tab-pane fade show active" id="nav-home7" role="tabpanel" aria-labelledby="nav-home-tab">
+                            <p>La familia de aviones 737 MAX ofrece más servicios y calidad a nuestros clientes, promoviendo así su éxito comercial y la satisfacción de sus pasajeros.
+								Este modelo ofrece la tecnología más avanzada en todo su diseño: nuevos motores, nuevos winglets , nuevos sistemas de visualización en cabina, y el diseño interior preferido por los pasajeros, el Boeing Sky, con más asientos para maximizar los beneficios. Mayores beneficios para los operadores y más confort para los pasajeros. Esta es una mejor forma de volar.</p>
+                          </div>
+                          <div class="tab-pane fade" id="nav-profile7" role="tabpanel" aria-labelledby="nav-profile-tab"><!--Comentarios Container-->
+                            <div class="card mt-3">
+                              <div class="card-header">
+                                Jhon Alexander comento hace 2 días
+                              </div>
+                              <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Genial!</li>
+                              </ul>
+                            </div>
+                            <div class="form-group">
+                              <textarea class="form-control mt-3" id="exampleFormControlTextarea1" placeholder="Ingresa tu comentario" rows="3"></textarea>
+                            </div>  
+                          </div><!--End Comentarios Container-->
+                        </div>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-outline-dark" data-dismiss="modal">Cerrar</button>
+                        <button type="button" class="btn btn-primary">Comprar</button>
+                      </div>
+                    </div>
+                  </div>
+                </div><!-- End Modal -->
+              </div>
+            </div>
+          </div>
+          <!--end of row-->
+        </div> <!--end of card container-->
+      </div><!--row-->
+    </div><!--End of Jumbotron-->
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
